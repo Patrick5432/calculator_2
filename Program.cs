@@ -86,7 +86,12 @@ public class Simple
                 question = Console.ReadLine();
                 if (question == "Да")
                 {
-                    
+                    Console.WriteLine("Введите первое число");
+                    firstNumber = Convert.ToInt64(Console.ReadLine());
+                }
+                else
+                {
+                    check = false;
                 }
                 break;
             }
