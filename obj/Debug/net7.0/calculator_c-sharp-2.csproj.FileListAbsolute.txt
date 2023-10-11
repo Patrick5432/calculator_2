@@ -1,0 +1,14 @@
+/home/user/Рабочий стол/calculator_c-sharp-2/bin/Debug/net7.0/calculator_c-sharp-2
+/home/user/Рабочий стол/calculator_c-sharp-2/bin/Debug/net7.0/calculator_c-sharp-2.deps.json
+/home/user/Рабочий стол/calculator_c-sharp-2/bin/Debug/net7.0/calculator_c-sharp-2.runtimeconfig.json
+/home/user/Рабочий стол/calculator_c-sharp-2/bin/Debug/net7.0/calculator_c-sharp-2.dll
+/home/user/Рабочий стол/calculator_c-sharp-2/bin/Debug/net7.0/calculator_c-sharp-2.pdb
+/home/user/Рабочий стол/calculator_c-sharp-2/obj/Debug/net7.0/calculator_c-sharp-2.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/Рабочий стол/calculator_c-sharp-2/obj/Debug/net7.0/calculator_c-sharp-2.AssemblyInfoInputs.cache
+/home/user/Рабочий стол/calculator_c-sharp-2/obj/Debug/net7.0/calculator_c-sharp-2.AssemblyInfo.cs
+/home/user/Рабочий стол/calculator_c-sharp-2/obj/Debug/net7.0/calculator_c-sharp-2.csproj.CoreCompileInputs.cache
+/home/user/Рабочий стол/calculator_c-sharp-2/obj/Debug/net7.0/calculator_c-sharp-2.dll
+/home/user/Рабочий стол/calculator_c-sharp-2/obj/Debug/net7.0/refint/calculator_c-sharp-2.dll
+/home/user/Рабочий стол/calculator_c-sharp-2/obj/Debug/net7.0/calculator_c-sharp-2.pdb
+/home/user/Рабочий стол/calculator_c-sharp-2/obj/Debug/net7.0/calculator_c-sharp-2.genruntimeconfig.cache
+/home/user/Рабочий стол/calculator_c-sharp-2/obj/Debug/net7.0/ref/calculator_c-sharp-2.dll
