@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 
 using System.Security.AccessControl;
 
@@ -33,11 +34,8 @@ public class Simple
         this.cal = cal;
     }
 
-    public static void Main()
+    public void Simp()
     {
-        Calculator cal = new Calculator();
-        Simple simp = new Simple(cal);
-        
         bool check = true;
         double result = 0;
 
@@ -97,5 +95,15 @@ public class Simple
             }
         }
 
+    }
+}
+
+public class Program
+{
+    static void Main()
+    {
+        Calculator cal = new Calculator();
+        Simple simp = new Simple(cal);
+        simp.Simp();
     }
 }
