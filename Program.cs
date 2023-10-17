@@ -47,8 +47,11 @@ public class Simple
         bool check = true;
         double result = 0;
 
+        try
+        {
         Console.WriteLine("Введите первое число");
         double firstNumber = Convert.ToInt64(Console.ReadLine());
+        
 
         while (check == true)
         {
@@ -113,6 +116,19 @@ public class Simple
                 }
                 break;
             }
+        }
+        }
+        catch (FormatException ex)
+        {
+            Console.WriteLine("ERR" + ex);
+            Simple simp = new Simple(cal);
+            simp.Simp();
+        }
+        catch (OverflowException ex)
+        {
+            Console.WriteLine("ERR" + ex);
+            Simple simp = new Simple(cal);
+            simp.Simp();
         }
 
     }
