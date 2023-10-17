@@ -22,6 +22,14 @@ public class Calculator
 
     public double Div(double firstNumber, double secondNumber)
     {
+        if (secondNumber == 0)
+        {
+            Calculator cal = new Calculator();
+            Simple simp = new Simple(cal);
+            Console.WriteLine("error:DivideByZeroException");
+            simp.Simp();
+            
+        }
         return firstNumber / secondNumber;
     }
 }
@@ -67,8 +75,20 @@ public class Simple
                 break;
 
                 case "/":
+                try
+                {
                 result = cal.Div(firstNumber, secondNumber);
                 Console.WriteLine(result);
+                }
+
+                catch (DivideByZeroException ex){
+                    Console.WriteLine("error" + ex);
+                }
+                break;
+                default:
+                Simple simp = new Simple(cal);
+                Console.WriteLine("error:InvalidValueEntered");
+                simp.Simp();
                 break;
             }
 
