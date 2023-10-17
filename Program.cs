@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿﻿﻿// See https://aka.ms/new-console-template for more information
 // See https://aka.ms/new-console-template for more information
 
 using System.Security.AccessControl;
@@ -107,8 +107,7 @@ public class Simple
                 question = Console.ReadLine();
                 if (question == "Да")
                 {
-                    Console.WriteLine("Введите первое число");
-                    firstNumber = Convert.ToInt64(Console.ReadLine());
+                    Simp();
                 }
                 else
                 {
