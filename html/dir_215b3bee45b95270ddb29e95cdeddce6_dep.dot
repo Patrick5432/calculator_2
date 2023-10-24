@@ -1,0 +1,11 @@
+digraph "/home/user/Рабочий стол/calculator_2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_127ecfa93bd340c0b2907ee21c7e1b5d {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,dashed,", label="Рабочий стол", fontname="Helvetica", fontsize="10", URL="dir_127ecfa93bd340c0b2907ee21c7e1b5d.html"]
+  dir_215b3bee45b95270ddb29e95cdeddce6 [shape=box, label="calculator_2", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_215b3bee45b95270ddb29e95cdeddce6.html"];
+  }
+}
