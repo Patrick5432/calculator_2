@@ -3,23 +3,53 @@
 
 using System.Security.AccessControl;
 
+/*!
+	\brief Родительский класс, не несущий никакой смысловой нагрузки
+
+	Данный класс имеет только одну простую цель: проиллюстрировать то,
+	как Doxygen документирует наследование 
+*/
 public class Calculator
 {
+    /*!
+	\brief aefwawefawef, не несущий никакой смысловой нагрузки
+
+	Данный класс имеет только одну простую цель: проиллюстрировать то,
+	как Doxygen документирует наследование 
+*/
     public double Sum(double firstNumber, double secondNumber)
     {
         return firstNumber + secondNumber;
     }
 
+/*!
+	\brief fwaefawfeawefsaf, не несущий никакой смысловой нагрузки
+
+	Данный класс имеет только одну простую цель: проиллюстрировать то,
+	как Doxygen документирует наследование 
+*/
     public double Multi(double firstNumber, double secondNumber)
     {
         return firstNumber * secondNumber;
     }
+    /*!
+	\brief Рaefawefawefawefwfawefawfс, не несущий никакой смысловой нагрузки
+
+	Данный класс имеет только одну простую цель: проиллюстрировать то,
+	как Doxygen документирует наследование 
+*/
 
     public double Sub(double firstNumber, double secondNumber)
     {
         return firstNumber - secondNumber;
     }
 
+/*!
+	\brief Роaewfawefawefawefasdgsadgaswegawсс, не несущий никакой смысловой нагрузки
+
+	Данный класс имеет только одну простую цель: проиллюстрировать то,
+	как Doxygen документирует наследование 
+*/
     public double Div(double firstNumber, double secondNumber)
     {
         if (secondNumber == 0)
@@ -33,15 +63,31 @@ public class Calculator
         return firstNumber / secondNumber;
     }
 }
+/*!
+	\brief Родительский класс, не несущий никакой смысловой нагрузки
 
+	Данный класс имеет только одну простую цель: проиллюстрировать то,
+	как Doxygen документирует наследование 
+*/
 public class Simple
 {
     Calculator cal;
+    /*!
+	\brief Родительский класс, не несущий никакой смысловой нагрузки
+
+	Данный класс имеет только одну простую цель: проиллюстрировать то,
+	как Doxygen документирует наследование 
+*/
     public Simple(Calculator cal)
     {
         this.cal = cal;
     }
+/*!
+	\brief Родительский класс, не несущий никакой смысловой нагрузки
 
+	Данный класс имеет только одну простую цель: проиллюстрировать то,
+	как Doxygen документирует наследование 
+*/
     public void Simp()
     {
         bool check = true;
@@ -132,9 +178,16 @@ public class Simple
 
     }
 }
+/*!
+	\brief Родительский класс, не несущий никакой смысловой нагрузки
+
+	Данный класс имеет только одну простую цель: проиллюстрировать то,
+	как Doxygen документирует наследование 
+*/
 
 public class Program
 {
+    
     static void Main()
     {
         Calculator cal = new Calculator();

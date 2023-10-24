@@ -1,18 +1,21 @@
 var indexSectionsWithContent =
 {
-  0: "cps",
-  1: "cps"
+  0: "cdmps",
+  1: "cps",
+  2: "dms"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "classes"
+  1: "classes",
+  2: "functions"
 };
 
 var indexSectionLabels =
 {
   0: "Указатель",
-  1: "Классы"
+  1: "Классы",
+  2: "Функции"
 };
 
